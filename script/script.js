@@ -145,7 +145,7 @@ function setup() {
     console.error(gl.getProgramInfoLog(program))
   }
 
-  vertices = [-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0]
+  vertices = [-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 2.0]
 
   buffer = gl.createBuffer()
 
