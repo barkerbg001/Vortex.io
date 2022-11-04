@@ -17,9 +17,6 @@ void main(void) {
 }
 `
 const fragmentSource = `#version 300 es
-/*********
-* made by Matthias Hurrle (@atzedent)
-*/
 #ifdef GL_FRAGMENT_PRECISION_HIGH
 precision highp float;
 #else
